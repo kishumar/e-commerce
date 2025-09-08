@@ -6,7 +6,7 @@ import { ShopDataContext } from '../context/ShopContext'
 import { AuthDataContext } from '../context/AuthContext'
 import axios from 'axios'
 import { useEffect } from 'react'
-import Loading from '../../../admin/src/components/Loading'
+import Loading from '../pages/Loading.jsx';
 
 const Order = () => {
 let [orderData , setOrderData] = useState([])
