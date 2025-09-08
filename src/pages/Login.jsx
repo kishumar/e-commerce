@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
-import Logo from '../assets/vcart logo.png'; 
+import Logo from '../assets/vcartlogo.png'; 
 import axios from 'axios';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../utils/firebase';

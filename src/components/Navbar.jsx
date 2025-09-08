@@ -1,6 +1,6 @@
 
 // 🧠 IMPORTS
-import logo from "../assets/vcart logo.png"
+import logo from "../assets/vcartlogo.png"
 import { IoSearchCircleOutline, IoSearchCircleSharp } from "react-icons/io5"; // 🔧 LINE FIX: Combined imports
 import { FaUserCircle } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
