@@ -8,7 +8,7 @@ import { auth, provider } from '../utils/firebase';
 import { AuthDataContext } from '../context/AuthContext';
 import { UserDataContext } from '../context/UserContext';
 import { toast } from 'react-toastify';
-import Loading from '../../../admin/src/components/Loading';
+import Loading from '../pages/Loading.jsx';
 
 
 const Register = () => {
@@ -80,7 +80,7 @@ navigate("/")
         </div>
         <div className='max-w-[500px] w-[90%] h-[500px] shadow-lg bg-transparent border-[1px] border-white rounded-lg flex items-center justify-center flex-col'>
         <form onSubmit={handleSignup} className='w-[90%] h-[90%] flex flex-col items-center justify-start gap-[20px]' action="">
-            <div onClick={googleSignup} className='w-[90%] h-[50px] rounde-lg flex items-center justify-center gap-5 py-6 cursor-pointer bg-[#42656cae] ' >
+            <div onClick={googleSignup} className='w-[90%] h-[50px] round-lg flex items-center justify-center gap-5 py-6 cursor-pointer bg-[#42656cae] ' >
                 <img className='w-10' src="https://s.yimg.com/fz/api/res/1.2/Qpybtr24YAUp2UGFYg1M5A--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/fe90b2b3-0ac3-3c81-8238-d3724bf23104/t_500x300" alt="" />{loading ? <Loading/>: "Registration with Google"}
             </div>
             <div className='w-[100%] h-[20px] flex items-center justify-center gap-[10px]'>
